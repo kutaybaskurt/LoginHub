@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "dist"
+  ],
+  "ignore": [
+    "data"
+  ],
+  "exec": "node dist/bundle.js"
+}

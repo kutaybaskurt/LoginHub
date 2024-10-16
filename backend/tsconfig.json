@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./sade", // setting the src directory as the base path
+    "paths": {
+      "@utils": ["utils"],
+      "@services": ["services"],
+      "@middlewares": ["middlewares"],
+      "@controllers": ["controllers"]
+    },
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
